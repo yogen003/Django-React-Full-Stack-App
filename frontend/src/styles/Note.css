@@ -1,0 +1,49 @@
+.note-container {
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1320px;
+}
+.note-title{
+  text-align: center;
+  margin-top:2rem;
+}
+.note-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.note-table th,
+.note-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.note-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.note-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.note-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+  border: none;
+  padding: 6px 12px;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
