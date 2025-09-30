@@ -3,8 +3,10 @@ import { ACCESS_TOKEN } from './constants';
 
 console.log("API Base URL:", import.meta.env.VITE_API_URL);
 
+const apiUrl = "/choreo-apis/django-react-tutorial/backend/v1"
+
 const api = axios.create({
-    baseURL : import.meta.env.VITE_API_URL ,
+    baseURL : import.meta.env.VITE_API_URL ? import.meta.env.VITE_API_URL : apiUrl,
 })
 
 api.interceptors.request.use(
