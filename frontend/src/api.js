@@ -1,4 +1,4 @@
-import axios from "axios"
+import axios from "axios";
 import { ACCESS_TOKEN } from './constants';
 
 console.log("API Base URL:", import.meta.env.VITE_API_URL);
